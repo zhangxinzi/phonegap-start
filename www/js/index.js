@@ -51,9 +51,9 @@ var app = {
 		var b = document.getElementById("base").value;
 		var h = document.getElementById("height").value;
 		if(b.length==0||h.length==0)
-			document.getElementById("res").innerHTML = "错误：请填写所有空白项";
+			document.getElementById("res").innerHTML = "eroor1";
 		else if(b==0||h==0)
-			document.getElementById("res").innerHTML = "错误：请输入合理数值";
+			document.getElementById("res").innerHTML = "eroor2";
 		else{
 			var x = parseInt(b);
 			var y = parseInt(h);
